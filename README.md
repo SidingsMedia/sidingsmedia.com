@@ -3,9 +3,10 @@ SPDX-FileCopyrightText: 2022 Sidings Media <contact@sidingsmedia.com>
 SPDX-License-Identifier: MIT
 -->
 
-# Project name
+# SIDNGSMEDIA>COM
 
-A description of what this project is and what it does
+This repo contains the frontend for sidingsmedia.com. This website is
+built using Nuxt.js for server side rendering and consumes the APIs at api.sidingsmedia.com.
 
 ## Licence
 This repo uses the [REUSE](https://reuse.software) standard in order to
