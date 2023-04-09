@@ -4,7 +4,7 @@ subtitle: "A complete model railway control system"
 date: "2023-04-09T21:36:45+01:00"
 image: "images/railwaycontroller.png"
 alt: "Railway controller logo"
-color: "#fff"
+# color: "#fff"
 #hoverColor: "#fff"
 github: 
     repo: "RailwayController/maincontroller"
