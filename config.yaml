@@ -87,7 +87,8 @@ Menu:
     #   identifier: blog
     #   url: "/#blog"
     #   weight: 3
-    - name: "Contact"
-      identifier: contact
-      url: "/#contact"
-      weight: 4
+    # Commented out until we get a backend for the contact form
+    # - name: "Contact"
+    #   identifier: contact
+    #   url: "/#contact"
+    #   weight: 4
