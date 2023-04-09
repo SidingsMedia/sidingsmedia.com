@@ -1,0 +1,93 @@
+# SPDX-FileCopyrightText: 2023 Sidings Media
+# SPDX-License-Identifier: CC0-1.0
+
+title: "Sidings Media"
+baseURL: "https://sidingsmedia.com"
+languageCode: "en-GB"
+theme: "github.com/kdevo/osprey-delight/v5"
+tags: ["business", "homepage", "portfolio"]
+#canonifyURLS: true
+#googleAnalytics: ""
+disableKinds: ["taxonomy", "taxonomyTerm"]
+enableEmoji: true
+pygmentsUseClasses: true
+
+module:
+  imports:
+  - path: github.com/kdevo/osprey-delight/v5
+
+Params:
+  author: "Sidings Media"
+  description: "Sidings Media - Open Source Education"
+  blogURL: "https://blog.sidingsmedia.com"
+  logoBig: "logo.png"
+  logoSmall: "favicon.png"
+  # background: "background.jpg"
+  opengraphImage: "logo.png"
+  favicon: "favicon.png"
+  theme: "dedark"
+  # tagline: "Open source education"
+  mdTagline: "# Sidings Media\n ## Open Source Education{cursor}"
+  enforceSinglePage: true
+  copyright: true
+  credit: true
+
+## Social links in footer:
+  Social:
+  - type: github
+    url: "https://github.com/SidingsMedia/"
+## Additional theme features:
+  Feat:
+    # ajaxBasin requires Basin setup for a free contact form (see instructions in README).
+    # ajaxBasin: "https://usebasin.com/f/{YOUR-12-CHAR-FORM-KEY-HERE}"
+    useStructuredData: true
+    useTermynal: true
+    googleTagManager: ""
+    notifyOnNewThemeVersion: false
+
+    Image:
+    Logo:
+      resize: "600x"
+
+    Gallery:
+      resize: "600x"
+
+    Background:
+      resize: "1920x"
+      resizeLQIP: "256x"
+
+  # Advanced configuration for lazyimg module (comment out if needed):
+  # lazyimg:
+  #   resizer: auto
+  #   renderer: lqip-webp
+
+  #   # Resizer options:
+  #   lqipSize: "120x Gaussian"
+  #   maxSize: "1920x"
+  #   responsiveSizes: ["320x", "640x", "768x", "1024x", "1366x", "1600x", "1920x"]
+  #   resizeOptions: "Lanczos q95"
+
+  #   # Renderer options:
+  #   #class: ""
+  #   #alt: ""
+  #   noscript: true 
+
+Menu:
+  Main:
+    - name: "About"
+      identifier: about 
+      url: "/#about"
+      weight: 1
+    - name: "Projects"
+      identifier: gallery
+      url: "/#projects"
+      weight: 2
+    # Commented out until blog.sidingsmedia.com is launched
+    # - name: "Blog"
+    #   identifier: blog
+    #   url: "/#blog"
+    #   weight: 3
+    - name: "Contact"
+      identifier: contact
+      url: "/#contact"
+      weight: 4

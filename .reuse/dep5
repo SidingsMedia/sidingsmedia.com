@@ -1,10 +1,8 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template
-Upstream-Contact: Sidings Media <contact@sidingsmedia.com>
+Upstream-Name: sidingsmedia.com
+Upstream-Contact: Sidings Media
 Source: 
 
-# Sample paragraph, commented out:
-#
-# Files: src/*
-# Copyright: $YEAR $NAME <$CONTACT>
-# License: ...
+Files: assets/images/*
+Copyright: 2023 Sidings Media
+License: CC-BY-SA-4.0

@@ -1,0 +1,24 @@
+<!-- 
+SPDX-FileCopyrightText: 2019 Toma Nistor <GitHub @tomanistor>
+SPDX-FileCopyrightText: 2019 Kai Dinghofer <GitHub @kdevo> 
+SPDX-FileCopyrightText: 2023 Sidings Media
+SPDX-License-Identifier: Apache-2.0
+-->
+
+<!--
+Changes by Sidings Media:
+    Removed templating of 5 latest blog posts, as this has been replaced
+    by querying the blog API instead. Also changed HREF for link.
+-->
+
+<div class="container">
+    <div class="row centre-xs">
+        <div class="col-xs-12"><h1>{{ i18n "latestPosts" }}</h1></div>
+    </div>
+    <div class="row center-xs">
+        <div class="col-xs-12 posts-list" id="post-list"></div>
+    </div>
+    <div class="row center-xs">
+        <div class="col-xs-12"><h3><a href="{{ site.Params.blogURL }}">{{ partial "icon" "view" }} {{ i18n "viewAll" }}</a></h3></div>
+    </div>
+</div>
