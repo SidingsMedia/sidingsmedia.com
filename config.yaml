@@ -25,7 +25,8 @@ Params:
   # background: "background.jpg"
   opengraphImage: "logo.png"
   favicon: "favicon.png"
-  theme: "dedark"
+  # theme: "custom"
+  theme: "delite"
   # tagline: "Open source education"
   mdTagline: "# Sidings Media\n ## Open Source Education{cursor}"
   enforceSinglePage: false
