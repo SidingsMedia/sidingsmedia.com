@@ -1,9 +1,19 @@
 // SPDX-FileCopyrightText: 2023 Sidings Media
 // SPDX-License-Identifier: Apache-2.0
 
+.nav-full {
+    background-color: $primary-bg-color !important;
+
+    a {
+        color: $primary-fg-color;
+        fill: $primary-fg-color;
+    }
+}
+
 footer {
     background-color: $primary-bg-color;
     height: auto;
+    transition: .4s ease-in;
 
     .social {
         color: $primary-fg-color;
@@ -20,4 +30,9 @@ footer {
             min-width: fit-content;
         }
     }
+}
+
+footer.active {
+    transform: translate(-100vw, 0);
+    opacity: 0.4;
 }
