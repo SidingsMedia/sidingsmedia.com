@@ -1,0 +1,48 @@
+<!-- 
+SPDX-FileCopyrightText: 2019 Toma Nistor <GitHub @tomanistor>
+SPDX-FileCopyrightText: 2019 Kai Dinghofer <GitHub @kdevo> 
+SPDX-FileCopyrightText: 2023 Sidings Media
+SPDX-License-Identifier: Apache-2.0
+-->
+
+<!--
+Changes by Sidings Media:
+    Added links to legal documents
+-->
+
+<footer>
+    <div class="row center-xs social">
+    {{ range .Site.Params.Social -}}
+        <div class="col-xs-2">
+            <a target="_blank" rel="noopener" href="{{ .url }}">
+                {{ partial "icon" .type }}
+            </a>
+        </div>
+    {{- end }}
+    </div>
+    <div class="row center-xs legal">
+    {{  range (where site.RegularPages "Section" "legal") }}
+        <div class="col-xs-2">
+            <small>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </small>
+        </div>
+    {{ end }}
+    </div>
+    {{ if (.Site.Params.copyright) -}}
+    <div class="row center-xs">
+        <div class="col-xs">
+            <small>
+                {{ if .Site.Params.copyright }}
+                    {{ i18n "copyright" }} &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+                {{ end }}
+                {{ if or (.Site.Params.credit) (eq (isset .Site.Params "credit") false) -}}
+                <div class="col-xs">
+                    <small>Theme: <a href="https://github.com/kdevo/osprey-delight" target="_blank" rel="noopener">Osprey Delight</a></small>
+                </div>
+                {{- end }}
+            </small>
+        </div>
+    </div>
+    {{- end }}
+</footer>
