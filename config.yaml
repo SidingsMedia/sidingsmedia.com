@@ -28,7 +28,7 @@ Params:
   theme: "dedark"
   # tagline: "Open source education"
   mdTagline: "# Sidings Media\n ## Open Source Education{cursor}"
-  enforceSinglePage: true
+  enforceSinglePage: false
   copyright: true
   credit: true
 
