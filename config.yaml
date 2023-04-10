@@ -30,7 +30,7 @@ Params:
   mdTagline: "# Sidings Media\n ## Open Source Education{cursor}"
   enforceSinglePage: false
   copyright: true
-  credit: true
+  credit: false
 
 ## Social links in footer:
   Social:
