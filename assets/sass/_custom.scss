@@ -1,6 +1,36 @@
 // SPDX-FileCopyrightText: 2023 Sidings Media
 // SPDX-License-Identifier: Apache-2.0
 
+nav {
+    .nav-arrow {
+        display: none;
+    }
+}
+
+@media (max-width: 47.99em) {
+    nav {
+        visibility: hidden;
+        opacity: 1;
+        .nav-arrow {
+            display: initial !important;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    .nav-fixed {
+        visibility: visible;
+
+        .nav-arrow {
+            visibility: hidden;
+        }
+    }
+}
+
 .nav-full {
     background-color: $primary-bg-color !important;
 
