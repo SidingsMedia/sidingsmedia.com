@@ -4,7 +4,7 @@ subtitle: "Our website is entirely open source"
 date: "2023-04-09T23:44:12+01:00"
 image: "images/website.png"
 alt: "Sidings Media logo"
-# color: "#fff"
+color: "#1976D2"
 #hoverColor: "#fff"
 github: 
     repo: "SidingsMedia/sidingsmedia.com"
