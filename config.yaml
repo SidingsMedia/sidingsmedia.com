@@ -20,16 +20,16 @@ Params:
   author: "Sidings Media"
   description: "Sidings Media - Open Source Education"
   blogURL: "https://blog.sidingsmedia.com"
-  logoBig: "logo.png"
-  logoSmall: "favicon.png"
+
+  logoBig: "logo/rendered/logo-white-vertical.png"
+  logoSmall: "logo/rendered/logo-white.png"
   # background: "background.jpg"
-  opengraphImage: "logo.png"
-  favicon: "favicon.png"
+  opengraphImage: "logo/rendered/logo-vertical.png"
+  favicon: "logo/rendered/logo.png"
+
   theme: "custom"
-  # theme: "delite"
-  # theme: "dedark"
-  # tagline: "Open source education"
-  mdTagline: "# Sidings Media\n ## Open Source Education{cursor}"
+  tagline: "Open source education"
+  # mdTagline: "# Sidings Media\n ## Open Source Education{cursor}"
   enforceSinglePage: false
   copyright: true
   credit: false
