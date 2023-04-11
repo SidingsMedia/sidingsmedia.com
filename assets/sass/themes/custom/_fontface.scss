@@ -1,1 +1,47 @@
-@import "../delight/fontface";
+/* noto-sans-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Sans Light';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./fonts/noto-sans/noto-sans-v27-latin-200.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/noto-sans/noto-sans-v27-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/noto-sans/noto-sans-v27-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/noto-sans/noto-sans-v27-latin-200.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/noto-sans/noto-sans-v27-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/noto-sans/noto-sans-v27-latin-200.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+
+/* noto-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/noto-sans/noto-sans-v27-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/noto-sans/noto-sans-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/noto-sans/noto-sans-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/noto-sans/noto-sans-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/noto-sans/noto-sans-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/noto-sans/noto-sans-v27-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+
+/* noto-sans-mono-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/noto-mono/noto-sans-mono-v25-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/noto-mono/noto-sans-mono-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/noto-mono/noto-sans-mono-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/noto-mono/noto-sans-mono-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/noto-mono/noto-sans-mono-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/noto-mono/noto-sans-mono-v25-latin-regular.svg#NotoSansMono') format('svg'); /* Legacy iOS */
+}
+
+$font-header: "Noto Sans Light", "Rubic", "Poppins", "Hel­vetica", Arial, sans-serif;
+$font-body: "Noto Sans", "Rubic", "Poppins", "Hel­vetica", Arial, sans-serif;
+$font-code: "Noto Sans Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-tagline: $font-code;
+$nav-font: $font-body;
