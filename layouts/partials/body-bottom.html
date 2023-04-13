@@ -9,6 +9,7 @@ SPDX-License-Identifier: Apache-2.0
 Changes by Sidings Media:
     Added blogposts.js script to $scripts list to make sure it is
     included in the page when rendered.
+    Changed name of contact API param
 -->
 
 {{ $buildOptions := dict "minify" true "target" "es2015" }}
@@ -29,7 +30,7 @@ Changes by Sidings Media:
 
   {{ $scripts = $scripts | append (resources.Get "js/src/home.js") }}
 
-  {{ if (.Site.Params.Feat.ajaxBasin) -}}
+  {{ if (.Site.Params.Feat.contactAPI) -}}
     {{ $scripts = $scripts | append (resources.Get "js/src/contact.js" | resources.ExecuteAsTemplate "js/src/contact.js" .) }}
   {{- end }}
   {{ $content := ($scripts | resources.Concat "js/bundle-home.js" | js.Build $buildOptions).Content }}

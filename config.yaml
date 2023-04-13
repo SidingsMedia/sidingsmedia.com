@@ -40,8 +40,7 @@ Params:
     url: "https://github.com/SidingsMedia/"
 ## Additional theme features:
   Feat:
-    # ajaxBasin requires Basin setup for a free contact form (see instructions in README).
-    # ajaxBasin: "https://usebasin.com/f/{YOUR-12-CHAR-FORM-KEY-HERE}"
+    contactAPI: "https://api.sidingsmedia.com/messaging/contact"
     useStructuredData: true
     useTermynal: true
     googleTagManager: ""
@@ -90,7 +89,7 @@ Menu:
     #   url: "/#blog"
     #   weight: 3
     # Commented out until we get a backend for the contact form
-    # - name: "Contact"
-    #   identifier: contact
-    #   url: "/#contact"
-    #   weight: 4
+    - name: "Contact"
+      identifier: contact
+      url: "/#contact"
+      weight: 4
