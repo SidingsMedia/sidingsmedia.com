@@ -38,6 +38,13 @@ Params:
   Social:
   - type: github
     url: "https://github.com/SidingsMedia/"
+  - type: instagram
+    url: https://www.instagram.com/sidingsmedia/
+  - type: facebook
+    url: https://www.facebook.com/sidingsmediaofficial
+  - type: twitter
+    url: https://twitter.com/SidingsMedia
+    
 ## Additional theme features:
   Feat:
     contactAPI: "https://api.sidingsmedia.com/messaging/contact"
