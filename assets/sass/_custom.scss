@@ -44,21 +44,45 @@ footer {
     background-color: $primary-bg-color;
     height: auto;
     transition: .4s ease-in;
+    padding-top: 2em;
 
-    .social {
-        color: $primary-fg-color;
-    }
-
-    .legal {
+    .columns {
+        flex-flow: wrap;
+        margin: -10px;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 10px;
+        color: $primary-fg-color;
+        text-align: left;
+        justify-content: space-evenly;
+        padding-bottom: 2em;
 
         div {
-            min-width: fit-content;
+            flex-basis: unset;
+            min-width: 200px;
         }
+    }
+
+    .footer-links {
+        flex: 1 0 180px;
+        width: 100%;
+        margin: 10px;
+        padding: 0;
+
+        li h4 {
+            margin: 0;
+            font-size: 1.5rem;
+            font-family: "Noto Sans","Rubic","Poppins","Helvetica",Arial,sans-serif;
+            font-weight: 1000;
+        }
+
+        li {
+            list-style: none;
+            margin: 10px auto;
+            font-size: 1.1rem;
+        }  
+    }
+
+    small {
+        color: $primary-fg-color
     }
 }
 

@@ -7,27 +7,33 @@ SPDX-License-Identifier: Apache-2.0
 
 <!--
 Changes by Sidings Media:
-    Added links to legal documents and 
+    Added link columns
+    Removed social links
 -->
 
 <footer>
-    <div class="row center-xs social">
-    {{ range .Site.Params.Social -}}
+    <div class="row center-xs columns">
+    {{ range .Site.Params.Columns -}}
         <div class="col-xs-2">
-            <a target="_blank" rel="noopener" href="{{ .url }}">
-                {{ partial "icon" .type }}
-            </a>
+            <ul class="footer-links">
+                <li><h4>{{ .title }}</h4></li>
+                {{ range .links -}}
+                <li>
+                    <a 
+                        href="{{ .href }}" 
+                        {{ if .external}}
+                        target="_blank"
+                        {{ end }}
+                    >
+                    {{ if (isset . "icon")}}
+                    {{ partial "icon" .icon }}
+                    {{ end }}
+                    {{ .name }}
+                </a></li>
+                {{- end }}
+            </ul>
         </div>
     {{- end }}
-    </div>
-    <div class="row center-xs legal">
-    {{  range (where site.RegularPages "Section" "legal") }}
-        <div class="col-xs-2">
-            <small>
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </small>
-        </div>
-    {{ end }}
     </div>
     {{ if (.Site.Params.copyright) -}}
     <div class="row center-xs">
