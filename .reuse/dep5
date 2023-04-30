@@ -6,11 +6,3 @@ Source:
 Files: assets/images/*
 Copyright: 2023 Sidings Media
 License: CC-BY-SA-4.0
-
-Files: static/fonts/noto-sans/*
-Copyright: 2023 The Noto Project Authors
-License: OFL-1.1
-
-Files: static/fonts/noto-mono/*
-Copyright: 2023 The Noto Project Authors
-License: OFL-1.1
