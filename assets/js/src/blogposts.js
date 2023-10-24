@@ -5,7 +5,7 @@
     window.addEventListener("DOMContentLoaded", () => {
         fetch("{{ site.Params.blogURL }}/recent.json")
             .then((res) => res.json())
-            .finally((data) => {
+            .then((data) => {
                 let postList = document.getElementById("post-list");
                 data.forEach(post => {
                     let article = document.createElement("article");
