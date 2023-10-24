@@ -3,7 +3,7 @@
 
 (() => {
     window.addEventListener("DOMContentLoaded", () => {
-        fetch("{{ site.Params.blogURL }}/api/posts/recent")
+        fetch("{{ site.Params.blogURL }}/recent.json")
             .then((res) => res.json())
             .finally((data) => {
                 let postList = document.getElementById("post-list");

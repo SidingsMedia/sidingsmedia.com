@@ -121,11 +121,10 @@ Menu:
       identifier: gallery
       url: "/#projects"
       weight: 2
-    # Commented out until blog.sidingsmedia.com is launched
-    # - name: "Blog"
-    #   identifier: blog
-    #   url: "/#blog"
-    #   weight: 3
+    - name: "Blog"
+      identifier: blog
+      url: "/#blog"
+      weight: 3
     # Commented out until we get a backend for the contact form
     - name: "Contact"
       identifier: contact
