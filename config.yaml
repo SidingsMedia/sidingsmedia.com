@@ -44,6 +44,9 @@ Params:
       - name: Docs
         href: https://docs.sidingsmedia.com
         external: true
+      - name: Blog
+        href: https://blog.sidingsmedia.com
+        external: true
   - title: Organisation
     links:
       - name: About
