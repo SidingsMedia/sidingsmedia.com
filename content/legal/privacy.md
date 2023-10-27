@@ -75,7 +75,7 @@ and analytical purposes.
 
 For more information about how GitHub collects and processes data, we
 recommend reviewing GitHub's privacy policy, which you can find here:
-GitHub Privacy Policy.
+[GitHub Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
 Please note that while we have chosen GitHub for hosting, we are solely
 responsible for the content and services provided on our website, as
