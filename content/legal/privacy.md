@@ -19,6 +19,8 @@ privacy.
 
 ## Information Collection and Use
 
+### Contact Forms
+
 We may collect personal information from you when you use our website,
 such as your name and email address. This information is collected only
 when you provide it voluntarily, such as when you fill out a contact
@@ -29,6 +31,59 @@ We use this personal information to:
 * Respond to your inquiries and provide the information and services 
   that you request
 * Improve our website and services
+
+### Cookies
+
+We do not use cookies on our website.
+
+### Analytics
+
+To enhance and improve our website, we collect certain anonymous
+information for analytical purposes. This data includes your browser
+user agent and the specific pages you visit on our website. Please be
+assured that this information is collected and processed in a manner
+that keeps it completely anonymous and does not identify you as an
+individual user. It is crucial to emphasize that we do not track
+individual users or their online behavior. We cannot identify if the
+same user has accessed different pages or link this data to any specific
+user.
+
+The browser user agent provides us with insights into the type of device
+and browser you are using to access our website, which helps us optimize
+our site for a better user experience. Page visit information allows us
+to understand which parts of our website are most popular and relevant
+to our users.
+
+We use this analytical data exclusively to make informed decisions about
+the design, content, and functionality of our website. This information
+is not linked to any personally identifiable information and is used
+solely for statistical and analytical purposes.
+
+If you have any questions or concerns regarding the collection and use
+of analytical data on our website, please feel free to contact us at
+privacy@sidingsmedia.com. Your privacy and online experience are of utmost
+importance to us.
+
+### Website Hosting
+
+We use GitHub to host our website. GitHub is a web hosting platform that
+provides the infrastructure and services for our website to be
+accessible to you. As a user of our website, it's important for you to
+be aware that when you access our site, certain data, such as your IP
+address and device information, may be collected by GitHub for security
+and analytical purposes.
+
+For more information about how GitHub collects and processes data, we
+recommend reviewing GitHub's privacy policy, which you can find here:
+GitHub Privacy Policy.
+
+Please note that while we have chosen GitHub for hosting, we are solely
+responsible for the content and services provided on our website, as
+outlined in the rest of this privacy policy.
+
+If you have any questions or concerns regarding the use of GitHub in
+relation to your personal data, please don't hesitate to contact us at
+privacy@sidingsmedia.com.
 
 ## Data Sharing and Disclosure
 
@@ -42,10 +97,6 @@ information, such as encryption and secure storage. However, no method
 of transmission over the Internet or electronic storage is completely
 secure, and we cannot guarantee the absolute security of your
 information.
-
-## Cookies
-
-We do not use cookies on our website.
 
 ## Links to Other Websites
 
