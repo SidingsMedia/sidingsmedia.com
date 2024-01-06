@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 title: "Sidings Media"
-baseURL: "https://sidingsmedia.com"
+baseURL: "https://www.sidingsmedia.com"
 languageCode: "en-GB"
 theme: "github.com/kdevo/osprey-delight/v5"
 tags: ["business", "homepage", "portfolio"]
