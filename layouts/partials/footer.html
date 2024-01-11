@@ -40,7 +40,7 @@ Changes by Sidings Media:
         <div class="col-xs">
             <small>
                 {{ if .Site.Params.copyright }}
-                    {{ i18n "copyright" }} &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+                    {{ i18n "copyright" }} &copy; 2023-{{ now.Format "2006" }} {{ .Site.Title }}
                 {{ end }}
                 {{ if or (.Site.Params.credit) (eq (isset .Site.Params "credit") false) -}}
                 <div class="col-xs">
