@@ -1,7 +1,7 @@
 ---
 title: "Temperature Sensor"
 subtitle: "A simple WiFi temperature sensor"
-date: "2024-01-11T21:36:45+00:00"
+date: "2024-01-11T19:36:45+00:00"
 image: "images/tempsensor.png"
 alt: "Temperature sensor PCB"
 # color: "#fff"
