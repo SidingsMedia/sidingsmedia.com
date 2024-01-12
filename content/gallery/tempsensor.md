@@ -4,7 +4,7 @@ subtitle: "A simple WiFi temperature sensor"
 date: "2024-01-11T19:36:45+00:00"
 image: "images/tempsensor.png"
 alt: "Temperature sensor PCB"
-# color: "#fff"
+color: "#d8d8f1"
 #hoverColor: "#fff"
 github: 
     repo: "SidingsMedia/prometheus-temperature-sensor"
