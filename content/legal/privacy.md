@@ -44,9 +44,7 @@ user agent and the specific pages you visit on our website. Please be
 assured that this information is collected and processed in a manner
 that keeps it completely anonymous and does not identify you as an
 individual user. It is crucial to emphasize that we do not track
-individual users or their online behavior. We cannot identify if the
-same user has accessed different pages or link this data to any specific
-user.
+individual users or their online behavior.
 
 The browser user agent provides us with insights into the type of device
 and browser you are using to access our website, which helps us optimize
