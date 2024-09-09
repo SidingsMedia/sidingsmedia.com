@@ -19,9 +19,9 @@ At Sidings Media, we're passionate about learning and sharing our
 knowledge with others. We believe that everyone should have access to
 high-quality educational resources.
 
-Sidings Media was founded by Matthew Nickson, a self-taught IT
+Sidings Media was founded by Mattie Nickson, a self-taught IT
 enthusiast with a passion for sharing knowledge and learning from
-others. Matthew started Sidings Media as a hobby project to document his
+others. Mattie started Sidings Media as a hobby project to document his
 own learning journey and to create a platform for sharing his knowledge
 with others.
 
