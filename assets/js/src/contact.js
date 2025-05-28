@@ -50,26 +50,26 @@
     // Call function when the state changes
     request.onreadystatechange = () => {
       if (request.readyState === XMLHttpRequest.DONE) {
-        if (request.status === 200) {
+        if (request.status === 201) {
           // Reset form
-          $('#form-contact').reset()
+          $("#form-contact").reset();
 
           function thankYouFadeIn() {
-            setVisibility(sending, false)
-            setVisibility(thanks, true)
+            setVisibility(sending, false);
+            setVisibility(thanks, true);
 
-            setTimeout(thankYouFadeOut, 6000)
-          };
+            setTimeout(thankYouFadeOut, 6000);
+          }
 
           function thankYouFadeOut() {
-            setVisibility(thanks, false)
-            setVisibility(submit, true)
-          };
+            setVisibility(thanks, false);
+            setVisibility(submit, true);
+          }
 
-          thankYouFadeIn()
+          thankYouFadeIn();
         } else {
-          setVisibility(sending, false)
-          setVisibility(error, true)
+          setVisibility(sending, false);
+          setVisibility(error, true);
         }
       }
     }
