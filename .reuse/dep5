@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: sidingsmedia.com
-Upstream-Contact: Sidings Media
-Source: 
-
-Files: assets/images/*
-Copyright: 2023 Sidings Media
-License: CC-BY-SA-4.0

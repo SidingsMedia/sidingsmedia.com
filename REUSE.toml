@@ -1,0 +1,9 @@
+version = 1
+SPDX-PackageName = "sidingsmedia.com"
+SPDX-PackageSupplier = "Sidings Media"
+
+[[annotations]]
+path = "assets/images/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2023 Sidings Media"
+SPDX-License-Identifier = "CC-BY-SA-4.0"

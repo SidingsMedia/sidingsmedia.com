@@ -5,6 +5,11 @@ draft: false
 description: "Terms of Service for Sidings Media's Websites"
 ---
 
+<!-- 
+SPDX-FileCopyrightText: 2023 OpenAI's GPT-3.5 via ChatGPT
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Terms of Service for Sidings Media
 
 Welcome to Sidings Media! These Terms of Service ("Terms") govern your

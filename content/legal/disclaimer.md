@@ -5,6 +5,11 @@ draft: false
 description: "Disclaimer of Site Content"
 ---
 
+<!-- 
+SPDX-FileCopyrightText: 2023 OpenAI's GPT-3.5 via ChatGPT
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 Disclaimer: The information provided on this website is for general
 informational purposes only. While we strive to provide accurate and
 up-to-date information, we make no representations or warranties of any
