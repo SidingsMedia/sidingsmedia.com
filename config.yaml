@@ -14,11 +14,11 @@ pygmentsUseClasses: true
 
 module:
   imports:
-  - path: github.com/kdevo/osprey-delight/v5
+    - path: github.com/kdevo/osprey-delight/v5
 
 Params:
   author: "Sidings Media"
-  description: "Sidings Media - Open Source Education"
+  description: "Sidings Media - A fun excuse to learn"
   blogURL: "https://blog.sidingsmedia.com"
 
   logoBig: "logo/rendered/logo-white-vertical.png"
@@ -28,58 +28,58 @@ Params:
   favicon: "logo/rendered/logo.png"
 
   theme: "custom"
-  tagline: "Open source education"
+  tagline: "A fun excuse to learn"
   # mdTagline: "# Sidings Media\n ## Open Source Education{cursor}"
   enforceSinglePage: false
   copyright: true
   credit: false
 
   Columns:
-  - title: Useful Links
-    links:
-      - name: Github
-        href: "https://github.com/SidingsMedia/"
-        icon: github
-        external: true
-      - name: Docs
-        href: https://docs.sidingsmedia.com
-        external: true
-      - name: Blog
-        href: https://blog.sidingsmedia.com
-        external: true
-  - title: Organisation
-    links:
-      - name: About
-        href: "#about"
-      - name: Service Status
-        href: https://status.sidingsmedia.com
-        external: true
+    - title: Useful Links
+      links:
+        - name: Github
+          href: "https://github.com/SidingsMedia/"
+          icon: github
+          external: true
+        - name: Docs
+          href: https://docs.sidingsmedia.com
+          external: true
+        - name: Blog
+          href: https://blog.sidingsmedia.com
+          external: true
+    - title: Organisation
+      links:
+        - name: About
+          href: "#about"
+        - name: Service Status
+          href: https://status.sidingsmedia.com
+          external: true
 
-  - title: Legal
-    links:
-      - name: Disclaimer
-        href: /legal/disclaimer/
-      - name: Terms of Service
-        href: /legal/terms/
-      - name: Privacy Policy
-        href: /legal/privacy/
+    - title: Legal
+      links:
+        - name: Disclaimer
+          href: /legal/disclaimer/
+        - name: Terms of Service
+          href: /legal/terms/
+        - name: Privacy Policy
+          href: /legal/privacy/
 
-  - title: Social Media
-    links:
-      - name: Instagram
-        href: "https://www.instagram.com/sidingsmedia/"
-        icon: instagram
-        external: true
-      - name: Facebook
-        href: "https://www.facebook.com/sidingsmediaofficial"
-        icon: facebook
-        external: true
-      - name: Twitter
-        href: "https://twitter.com/SidingsMedia"
-        icon: twitter
-        external: true
-    
-## Additional theme features:
+    - title: Social Media
+      links:
+        - name: Instagram
+          href: "https://www.instagram.com/sidingsmedia/"
+          icon: instagram
+          external: true
+        - name: Facebook
+          href: "https://www.facebook.com/sidingsmediaofficial"
+          icon: facebook
+          external: true
+        - name: Twitter
+          href: "https://twitter.com/SidingsMedia"
+          icon: twitter
+          external: true
+
+  ## Additional theme features:
   Feat:
     contactAPI: "https://api.sidingsmedia.com/messaging/contact"
     useStructuredData: true
@@ -112,12 +112,12 @@ Params:
   #   # Renderer options:
   #   #class: ""
   #   #alt: ""
-  #   noscript: true 
+  #   noscript: true
 
 Menu:
   Main:
     - name: "About"
-      identifier: about 
+      identifier: about
       url: "/#about"
       weight: 1
     - name: "Projects"
