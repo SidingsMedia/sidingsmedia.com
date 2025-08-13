@@ -14,7 +14,7 @@ Welcome to Sidings Media, a giant excuse to make a website and play with
 cool tech. Have an explore, see what you can find and maybe you might
 learn some stuff along the way.
 
-I should probably introduce myself, I'm Mattie (they/she) and Sidings
+I should probably introduce myself, I'm Zoe (they/she) and Sidings
 Media is basically my own personal playground for all things computery.
 It was created all the way back in 2018 when I wanted to create YouTube
 videos about model railways (hence the name). Safe to say they were
